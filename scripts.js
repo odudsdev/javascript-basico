@@ -1,16 +1,11 @@
-// O console.log exibe no console um texto.
-console.log("Hello World") // Também posso colocar do lado.
+// Declara uma variável sem valor.
+var user
+console.log(user)
 
-/*
-  Comentário de múltiplas linhas.
+// Declara uma variável com valor.
+var email = "eduardo@email.com"
+console.log(email)
 
-  Comentários são trecho de texto que podem ser adicionados junto com o código.
-
-  O navegador ignora o texto marcado como comentário.
-
-  Porque utilizar comentários durante seus estudos:
-  - Fornecer informações adicionais sobre o que o código faz;
-  - Deixar lembretes de coisas a fazer;
-  - Relembrar no futuro o que aquilo faz;
-  - Etc.
-*/
+// Substituir o valor da variável.
+email = "johndoe@email.com"
+console.log(email)
